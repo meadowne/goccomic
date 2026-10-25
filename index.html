@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Góc Comic – Không gian truyện tranh thế hệ mới</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Google Fonts: Montserrat (giao diện), Oswald (tiêu đề banner), Open Sans italic (mô tả) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:ital,wght@1,400;1,600&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo" aria-label="Góc Comic - Trang chủ">
+        <img src="assets/logo.png" alt="Góc Comic">
+      </a>
+
+      <nav class="header__nav" aria-label="Chuyên mục">
+        <a href="#truyen-dong">Truyện động</a>
+        <a href="#nguoi-ve-truyen">Người vẽ truyện</a>
+        <a href="#goi-y-doc">Gợi ý đọc</a>
+        <a href="#giai-ma-truyen">Giải mã truyện</a>
+        <a href="#phong-tam-truyen">Phòng tám truyện</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="lang-btn" type="button" aria-label="Chuyển ngôn ngữ">
+          <span class="lang-btn__dot"></span>
+          <span>VIE</span>
+        </button>
+
+        <button class="icon-btn" type="button" aria-label="Tìm kiếm">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <circle cx="10.5" cy="10.5" r="7"/>
+            <line x1="15.8" y1="15.8" x2="21" y2="21"/>
+          </svg>
+        </button>
+
+        <button class="icon-btn icon-btn--menu" type="button" aria-label="Mở menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+            <line x1="2" y1="6" x2="22" y2="6"/>
+            <line x1="2" y1="12" x2="22" y2="12"/>
+            <line x1="2" y1="18" x2="22" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== HERO BANNER ===== -->
+    <section class="hero" aria-label="Bài viết nổi bật">
+      <div class="hero__stage">
+
+        <!-- Slide 1 -->
+        <article class="hero__slide is-active">
+          <img class="hero__img" src="assets/hero-banner/1.png" alt="">
+          <div class="hero__content">
+            <h2 class="hero__title">Frieren: Beyond Journey’s End và hành trình giả tưởng chậm rãi nhưng đầy cảm xúc</h2>
+            <p class="hero__desc">Không bắt đầu bằng một cuộc chiến hay hành trình tiêu diệt Ma Vương, Frieren - Pháp sư tiễn táng lại mở ra khi cuộc phiêu lưu đã kết thúc.</p>
+            <a class="hero__btn" href="frieren_beyond_journeys_end_va_hanh_trinh_gia_tuong_cham_rai_nhung_day_cam_xuc.html">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12h18M15 6l6 6-6 6"/></svg>
+              Đọc ngay
+            </a>
+          </div>
+        </article>
+
+        <!-- Slide 2 -->
+        <article class="hero__slide">
+          <img class="hero__img" src="assets/hero-banner/2.png" alt="">
+          <div class="hero__content">
+            <h2 class="hero__title">Long Thần Tướng kể lịch sử Việt Nam bằng ngôn ngữ truyện tranh</h2>
+            <p class="hero__desc">Không kể lịch sử theo lối khô cứng, Long Thần Tướng đưa độc giả trở về thời Trần bằng một câu chuyện dã sử giàu bí ẩn</p>
+            <a class="hero__btn" href="long_than_tuong_khi_khung_tranh_ke_nhieu_hon_loi_thoai.html">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12h18M15 6l6 6-6 6"/></svg>
+              Đọc ngay
+            </a>
+          </div>
+        </article>
+
+        <!-- Slide 3 -->
+        <article class="hero__slide">
+          <img class="hero__img" src="assets/hero-banner/3.png" alt="">
+          <div class="hero__content">
+            <h2 class="hero__title">Maomao không chỉ giải án bằng kiến thức: Hãy nhìn vào thứ mọi người bỏ qua</h2>
+            <p class="hero__desc">Trong The Apothecary Diaries, Maomao không phải kiểu thám tử chờ hung thủ tự lộ diện.</p>
+            <a class="hero__btn" href="maomao_khong_chi_giai_an_bang_kien_thuc_hay_nhin_vao_thu_moi_nguoi_bo_qua.html">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12h18M15 6l6 6-6 6"/></svg>
+              Đọc ngay
+            </a>
+          </div>
+        </article>
+
+        <!-- 3 chấm điều hướng (góc trên phải banner) -->
+        <div class="hero__dots" role="tablist" aria-label="Chọn bài nổi bật">
+          <button class="hero__dot is-active" type="button" role="tab" aria-label="Bài 1"></button>
+          <button class="hero__dot" type="button" role="tab" aria-label="Bài 2"></button>
+          <button class="hero__dot" type="button" role="tab" aria-label="Bài 3"></button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== GIỚI THIỆU ===== -->
+    <section class="intro" aria-labelledby="intro-title">
+      <img class="intro__star intro__star--blue" src="assets/sao/4canhxanh.png" alt="" aria-hidden="true">
+      <img class="intro__star intro__star--red" src="assets/sao/8canhcam.png" alt="" aria-hidden="true">
+
+      <div class="intro__inner">
+        <h1 class="intro__title" id="intro-title">
+          <span class="intro__highlight">Góc Comic – Không gian truyện tranh thế hệ mới</span>
+        </h1>
+
+        <p class="intro__text">
+          Được xây dựng từ tình yêu với nghệ thuật kể chuyện bằng hình ảnh, Góc Comic là nền tảng tin tức, đánh giá và thảo luận chuyên sâu về Manga, Manhua, Webtoon và Truyện tranh Việt Nam. Tụi mình mang đến nguồn nội dung chọn lọc, góc nhìn mới mẻ và sân chơi mở cho cộng đồng.
+        </p>
+
+        <p class="intro__note">Tuyệt đối không spoil, đánh giá khách quan và luôn tôn trọng trọn vẹn cảm xúc đọc của bạn!</p>
+      </div>
+    </section>
+
+    <!-- ===== BẢNG XẾP HẠNG + ĐỌC NHIỀU ===== -->
+    <section class="ranking">
+
+      <div class="bxh-card">
+        <!-- Bên trái: các quả bóng nảy + tiêu đề -->
+        <div class="bxh__stage">
+          <a class="bxh__go" href="#phong-tam-truyen" aria-label="Link bình chọn">
+            <span class="bxh__go-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </span>
+            <span class="bxh__go-label">Link bình chọn</span>
+          </a>
+
+          <!-- Tiêu đề + vương miện nằm DƯỚI các quả bóng -->
+          <div class="bxh__heading">
+            <svg class="bxh__crown" viewBox="0 0 100 62" aria-hidden="true">
+              <path fill="currentColor" d="M4 52 0 14l26 18L50 6l24 26 26-18-4 38z"/>
+              <rect fill="currentColor" x="6" y="55" width="88" height="7" rx="3"/>
+              <circle fill="currentColor" cx="3" cy="10" r="4"/>
+              <circle fill="currentColor" cx="50" cy="4" r="4"/>
+              <circle fill="currentColor" cx="97" cy="10" r="4"/>
+            </svg>
+            <h2 class="bxh__title">Truyện được<br>yêu thích nhất<br>tuần trước</h2>
+          </div>
+
+          <!-- Bóng: top 1 ở layer trên cùng, top 10 ở dưới cùng (z-index do script.js gán) -->
+          <div class="bxh__balls" aria-hidden="true">
+            <img class="ball" src="assets/top10/jojo_part7.png" alt="">
+            <img class="ball" src="assets/top10/berserk.jpg" alt="">
+            <img class="ball" src="assets/top10/one_piece.jpg" alt="">
+            <img class="ball" src="assets/top10/fullmetal_alchemist.jpg" alt="">
+            <img class="ball" src="assets/top10/grand_blue_dreaming.jpg" alt="">
+            <img class="ball" src="assets/top10/duoc_su_tu_su.jpg" alt="">
+            <img class="ball" src="assets/top10/operation_true_love.jpg" alt="">
+            <img class="ball" src="assets/top10/blue_lock.jpg" alt="">
+            <img class="ball" src="assets/top10/cry_or_better_yet_beg.jpg" alt="">
+            <img class="ball" src="assets/top10/thay_tuong_thay_vu.jpg" alt="">
+          </div>
+        </div>
+
+        <!-- Bên phải: danh sách top 10 (cột trái 1–5, cột phải 6–10) -->
+        <ol class="bxh__list">
+          <li><span class="bxh__num">1</span><span class="bxh__name">JoJo’s Bizarre Adventure: Part 7—Steel Ball Run</span></li>
+          <li><span class="bxh__num">2</span><span class="bxh__name">Berserk</span></li>
+          <li><span class="bxh__num">3</span><span class="bxh__name">One Piece</span></li>
+          <li><span class="bxh__num">4</span><span class="bxh__name">Fullmetal Alchemist: Brotherhood</span></li>
+          <li><span class="bxh__num">5</span><span class="bxh__name">Grand Blue Dreaming</span></li>
+          <li><span class="bxh__num">6</span><span class="bxh__name">Dược Sư Tự Sự</span></li>
+          <li><span class="bxh__num">7</span><span class="bxh__name">Operation: True Love</span></li>
+          <li><span class="bxh__num">8</span><span class="bxh__name">Blue Lock</span></li>
+          <li><span class="bxh__num">9</span><span class="bxh__name">Cry, or Better Yet, Beg</span></li>
+          <li><span class="bxh__num">10</span><span class="bxh__name">Bẩm thầy Tường, có thầy Vũ đến tìm!</span></li>
+        </ol>
+      </div>
+
+      <!-- Cột "Đọc nhiều" -->
+      <!-- Link = tên bài viết bỏ dấu, bỏ ký tự đặc biệt, nối bằng dấu gạch dưới + .html -->
+      <!-- Ảnh: bỏ file vào assets/popular/ (1.jpg … 4.jpg) hoặc đổi đường dẫn src bên dưới -->
+      <aside class="popular" aria-labelledby="popular-title">
+        <h2 class="popular__heading" id="popular-title">Đọc nhiều</h2>
+
+        <ul class="popular__list">
+          <li>
+            <a class="popular__item" href="truyen_tranh_viet_sap_gop_mat_tai_frankfurt_2026_dua_sang_tao_cua_tac_gia_viet_ra_the_gioi.html">
+              <div class="popular__text">
+                <div class="popular__meta">
+                  <span class="popular__cat">Truyện động</span>
+                  <time datetime="2026-10-15">15/10/2026</time>
+                </div>
+                <h3 class="popular__title">Truyện tranh Việt sắp góp mặt tại Frankfurt 2026, đưa sáng tạo của tác giả Việt ra thế giới</h3>
+              </div>
+              <div class="popular__thumb"><img src="assets/popular/1.jpg" alt="" loading="lazy"></div>
+            </a>
+          </li>
+
+          <li>
+            <a class="popular__item" href="co_di_ma_lay_chong_toi_khi_co_hoi_thu_hai_tro_thanh_cuoc_tra_thu.html">
+              <div class="popular__text">
+                <div class="popular__meta">
+                  <span class="popular__cat">Giải mã truyện</span>
+                  <time datetime="2026-10-06">06/10/2026</time>
+                </div>
+                <h3 class="popular__title">Cô đi mà lấy chồng tôi: Khi cơ hội thứ hai trở thành cuộc trả thù</h3>
+              </div>
+              <div class="popular__thumb"><img src="assets/popular/2.png" alt="" loading="lazy"></div>
+            </a>
+          </li>
+
+          <li>
+            <a class="popular__item" href="eiichiro_oda_hanh_trinh_tu_cau_be_me_hai_tac_den_cha_de_cua_one_piece.html">
+              <div class="popular__text">
+                <div class="popular__meta">
+                  <span class="popular__cat">Người vẽ truyện</span>
+                  <time datetime="2026-10-20">20/10/2026</time>
+                </div>
+                <h3 class="popular__title">EIICHIRO ODA - Hành trình từ cậu bé mê hải tặc đến cha đẻ của One Piece</h3>
+              </div>
+              <div class="popular__thumb"><img src="assets/popular/3.png" alt="" loading="lazy"></div>
+            </a>
+          </li>
+
+          <li>
+            <a class="popular__item" href="top_5_manga_va_tac_pham_truyen_minh_hoa_giup_kham_pha_van_hoa_nhat_ban.html">
+              <div class="popular__text">
+                <div class="popular__meta">
+                  <span class="popular__cat">Gợi ý đọc</span>
+                  <time datetime="2026-08-26">26/08/2026</time>
+                </div>
+                <h3 class="popular__title">Top 5 manga và tác phẩm truyện minh họa giúp khám phá văn hóa Nhật Bản</h3>
+              </div>
+              <div class="popular__thumb"><img src="assets/popular/4.avif" alt="" loading="lazy"></div>
+            </a>
+          </li>
+        </ul>
+      </aside>
+
+    </section>
+
+        <!-- ===== KHU TAB CHUYÊN MỤC ===== -->
+    <!-- Ảnh bìa: đặt vào assets/articles/ với tên trùng tên file html (vd: tac_gia_oda.html → tac_gia_oda.jpg) -->
+    <section class="tabs" data-active="0" aria-label="Bài viết theo chuyên mục">
+      <div class="tabs__list" role="tablist" aria-label="Chuyên mục">
+        <button class="tabs__tab" id="truyen-dong" role="tab" type="button" data-color="blue" aria-controls="pane-truyen-dong" aria-selected="true" tabindex="0">Truyện động</button>
+        <button class="tabs__tab" id="nguoi-ve-truyen" role="tab" type="button" data-color="yellow" aria-controls="pane-nguoi-ve-truyen" aria-selected="false" tabindex="-1">Người vẽ truyện</button>
+        <button class="tabs__tab" id="goi-y-doc" role="tab" type="button" data-color="pink" aria-controls="pane-goi-y-doc" aria-selected="false" tabindex="-1">Gợi ý đọc</button>
+        <button class="tabs__tab" id="giai-ma-truyen" role="tab" type="button" data-color="green" aria-controls="pane-giai-ma-truyen" aria-selected="false" tabindex="-1">Giải mã truyện</button>
+        <button class="tabs__tab" id="phong-tam-truyen" role="tab" type="button" data-color="orange" aria-controls="pane-phong-tam-truyen" aria-selected="false" tabindex="-1">Phòng tám truyện</button>
+      </div>
+
+      <div class="tabs__panel">
+        <div class="tabs__pane" id="pane-truyen-dong" role="tabpanel" aria-labelledby="truyen-dong">
+          <div class="carousel">
+            <div class="carousel__track">
+            <a class="card" href="tougen_anki_2_tro_lai_voi_arc_thac_kegon_cuoc_chien_oni_va_momotaro_tiep_tuc_len_song.html">
+              <div class="card__thumb"><img src="assets/articles/tougen_anki_2_tro_lai_voi_arc_thac_kegon_cuoc_chien_oni_va_momotaro_tiep_tuc_len_song.png" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Bùi Thúy</span>
+                <time datetime="2026-10-22">22/10/2026</time>
+              </div>
+              <h3 class="card__title">TOUGEN ANKI 2 trở lại với arc thác Kegon: Cuộc chiến Oni và Momotaro tiếp tục lên sóng!</h3>
+            </a>
+            <a class="card" href="5_anime_he_2026_de_lai_dau_an_o_nhung_tap_cuoi.html">
+              <div class="card__thumb"><img src="assets/articles/5_anime_he_2026_de_lai_dau_an_o_nhung_tap_cuoi.png" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Định Lương</span>
+                <time datetime="2026-10-16">16/10/2026</time>
+              </div>
+              <h3 class="card__title">5 anime hè 2026 để lại dấu ấn ở những tập cuối</h3>
+            </a>
+            <a class="card" href="truyen_tranh_viet_sap_gop_mat_tai_frankfurt_2026_dua_sang_tao_cua_tac_gia_viet_ra_the_gioi.html">
+              <div class="card__thumb"><img src="assets/articles/truyen_tranh_viet_sap_gop_mat_tai_frankfurt_2026_dua_sang_tao_cua_tac_gia_viet_ra_the_gioi.jpg" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Nguyễn Lan</span>
+                <time datetime="2026-10-15">15/10/2026</time>
+              </div>
+              <h3 class="card__title">Truyện tranh Việt sắp góp mặt tại Frankfurt 2026, đưa sáng tạo của tác giả Việt ra thế giới</h3>
+            </a>
+            <a class="card" href="tu_webtoon_den_man_anh_rong_guardians_of_the_video_game_mo_duong_cho_phim_hoat_hinh_han_quoc.html">
+              <div class="card__thumb"><img src="assets/articles/tu_webtoon_den_man_anh_rong_guardians_of_the_video_game_mo_duong_cho_phim_hoat_hinh_han_quoc.jpg" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Linh Anh</span>
+                <time datetime="2026-10-12">12/10/2026</time>
+              </div>
+              <h3 class="card__title">Từ webtoon đến màn ảnh rộng: “Guardians of the Video Game” mở đường cho phim hoạt hình Hàn Quốc</h3>
+            </a>
+            <a class="card" href="doc_manga_bang_100_ngon_ngu_shueisha_mo_rong_the_gioi_truyen_tranh_voi_manga_million.html">
+              <div class="card__thumb"><img src="assets/articles/doc_manga_bang_100_ngon_ngu_shueisha_mo_rong_the_gioi_truyen_tranh_voi_manga_million.png" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Bình An</span>
+                <time datetime="2026-10-07">07/10/2026</time>
+              </div>
+              <h3 class="card__title">Đọc manga bằng 100 ngôn ngữ? Shueisha mở rộng thế giới truyện tranh với MANGA MILLION!</h3>
+            </a>
+            <a class="card" href="khong_can_la_mangaka_chuyen_nghiep_canh_cua_xuat_ban_manga_dang_mo_rong_cho_nha_sang_tao_moi.html">
+              <div class="card__thumb"><img src="assets/articles/khong_can_la_mangaka_chuyen_nghiep_canh_cua_xuat_ban_manga_dang_mo_rong_cho_nha_sang_tao_moi.jpg" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Hồng Nhung</span>
+                <time datetime="2026-09-30">30/09/2026</time>
+              </div>
+              <h3 class="card__title">Không cần là mangaka chuyên nghiệp: Cánh cửa xuất bản manga đang mở rộng cho nhà sáng tạo mới</h3>
+            </a>
+            <a class="card" href="here_u_are_chinh_thuc_duoc_chuyen_the_anime_chuyen_tinh_thanh_xuan_khien_fan_manhua_mong_cho.html">
+              <div class="card__thumb"><img src="assets/articles/here_u_are_chinh_thuc_duoc_chuyen_the_anime_chuyen_tinh_thanh_xuan_khien_fan_manhua_mong_cho.jpg" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Kiều Trinh</span>
+                <time datetime="2026-09-14">14/09/2026</time>
+              </div>
+              <h3 class="card__title">“Here U Are” chính thức được chuyển thể anime: Chuyện tình thanh xuân khiến fan manhua mong chờ</h3>
+            </a>
+            </div>
+          </div>
+          <div class="carousel-nav">
+            <button class="carousel-btn carousel-btn--prev" type="button" aria-label="Bài trước"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12H4M10 6l-6 6 6 6"/></svg></button>
+            <button class="carousel-btn carousel-btn--next" type="button" aria-label="Bài sau"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></button>
+          </div>
+        </div>
+        <div class="tabs__pane" id="pane-nguoi-ve-truyen" role="tabpanel" aria-labelledby="nguoi-ve-truyen" hidden>
+          <div class="carousel">
+            <div class="carousel__track">
+            <a class="card" href="eiichiro_oda_hanh_trinh_tu_cau_be_me_hai_tac_den_cha_de_cua_one_piece.html">
+              <div class="card__thumb"><img src="assets/articles/eiichiro_oda_hanh_trinh_tu_cau_be_me_hai_tac_den_cha_de_cua_one_piece.png" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Lam Giang</span>
+                <time datetime="2026-10-20">20/10/2026</time>
+              </div>
+              <h3 class="card__title">EIICHIRO ODA - Hành trình từ cậu bé mê hải tặc đến cha đẻ của One Piece</h3>
+            </a>
+            <a class="card" href="nguyen_thanh_phong_cung_hanh_trinh_dua_chat_lieu_viet_vao_truyen_tranh.html">
+              <div class="card__thumb"><img src="assets/articles/nguyen_thanh_phong_cung_hanh_trinh_dua_chat_lieu_viet_vao_truyen_tranh.png" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Minh Long</span>
+                <time datetime="2026-10-14">14/10/2026</time>
+              </div>
+              <h3 class="card__title">Nguyễn Thành Phong cùng hành trình đưa chất liệu Việt vào truyện tranh</h3>
+            </a>
+            <a class="card" href="hanh_trinh_tao_nen_nhung_tuong_dai_manga_cua_rumiko_takahashi.html">
+              <div class="card__thumb"><img src="assets/articles/hanh_trinh_tao_nen_nhung_tuong_dai_manga_cua_rumiko_takahashi.png" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Kim Ngân</span>
+                <time datetime="2026-10-10">10/10/2026</time>
+              </div>
+              <h3 class="card__title">Hành trình tạo nên những tượng đài manga của RUMIKO TAKAHASHI</h3>
+            </a>
+            <a class="card" href="naoki_urasawa_va_nhung_cau_chuyen_manga_di_sau_vao_tam_ly_con_nguoi.html">
+              <div class="card__thumb"><img src="assets/articles/naoki_urasawa_va_nhung_cau_chuyen_manga_di_sau_vao_tam_ly_con_nguoi.jpg" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Thu Phương</span>
+                <time datetime="2026-09-24">24/09/2026</time>
+              </div>
+              <h3 class="card__title">Naoki Urasawa và những câu chuyện manga đi sâu vào tâm lý con người</h3>
+            </a>
+            <a class="card" href="siu_va_the_gioi_khong_lo_duoc_kien_tao_trong_tower_of_god.html">
+              <div class="card__thumb"><img src="assets/articles/siu_va_the_gioi_khong_lo_duoc_kien_tao_trong_tower_of_god.jpg" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Hải Anh</span>
+                <time datetime="2026-09-18">18/09/2026</time>
+              </div>
+              <h3 class="card__title">SIU và thế giới khổng lồ được kiến tạo trong Tower of God</h3>
+            </a>
+            <a class="card" href="carnby_kim_cung_hanh_trinh_tao_nen_hien_tuong_sweet_home_tu_nhung_cau_chuyen_kinh_di.html">
+              <div class="card__thumb"><img src="assets/articles/carnby_kim_cung_hanh_trinh_tao_nen_hien_tuong_sweet_home_tu_nhung_cau_chuyen_kinh_di.jpg" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Mỹ Linh</span>
+                <time datetime="2026-09-09">09/09/2026</time>
+              </div>
+              <h3 class="card__title">Carnby Kim cùng hành trình tạo nên hiện tượng Sweet Home từ những câu chuyện kinh dị</h3>
+            </a>
+            <a class="card" href="one_tu_webcomic_net_ve_don_gian_den_nhung_tac_pham_vuon_ra_toan_cau.html">
+              <div class="card__thumb"><img src="assets/articles/one_tu_webcomic_net_ve_don_gian_den_nhung_tac_pham_vuon_ra_toan_cau.jpg" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Thuỳ Dương</span>
+                <time datetime="2026-09-01">01/09/2026</time>
+              </div>
+              <h3 class="card__title">ONE từ webcomic nét vẽ đơn giản đến những tác phẩm vươn ra toàn cầu</h3>
+            </a>
+            <a class="card" href="le_linh_va_nhung_nhan_vat_gan_lien_voi_tuoi_tho_qua_than_dong_dat_viet.html">
+              <div class="card__thumb"><img src="assets/articles/le_linh_va_nhung_nhan_vat_gan_lien_voi_tuoi_tho_qua_than_dong_dat_viet.jpg" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Hoàng Tùng</span>
+                <time datetime="2026-08-26">26/08/2026</time>
+              </div>
+              <h3 class="card__title">Lê Linh và những nhân vật gắn liền với tuổi thơ qua Thần Đồng Đất Việt</h3>
+            </a>
+            </div>
+          </div>
+          <div class="carousel-nav">
+            <button class="carousel-btn carousel-btn--prev" type="button" aria-label="Bài trước"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12H4M10 6l-6 6 6 6"/></svg></button>
+            <button class="carousel-btn carousel-btn--next" type="button" aria-label="Bài sau"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></button>
+          </div>
+        </div>
+        <div class="tabs__pane" id="pane-goi-y-doc" role="tabpanel" aria-labelledby="goi-y-doc" hidden>
+          <div class="carousel">
+            <div class="carousel__track">
+            <a class="card" href="top_5_truyen_tranh_viet_nam_dang_duoc_doc_gia_chu_y.html">
+              <div class="card__thumb"><img src="assets/articles/top_5_truyen_tranh_viet_nam_dang_duoc_doc_gia_chu_y.jfif" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">An Đặng</span>
+                <time datetime="2026-10-15">15/10/2026</time>
+              </div>
+              <h3 class="card__title">Top 5 truyện tranh Việt Nam đang được độc giả chú ý</h3>
+            </a>
+            <a class="card" href="top_5_manga_dang_duoc_san_don_tren_bilibili_manga.html">
+              <div class="card__thumb"><img src="assets/articles/top_5_manga_dang_duoc_san_don_tren_bilibili_manga.jpg" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Đông Anh</span>
+                <time datetime="2026-10-03">03/10/2026</time>
+              </div>
+              <h3 class="card__title">Top 5 manga đang được săn đón trên Bilibili Manga</h3>
+            </a>
+            <a class="card" href="top_5_manhua_trung_quoc_dang_duoc_yeu_thich_tren_bilibili_manga.html">
+              <div class="card__thumb"><img src="assets/articles/top_5_manhua_trung_quoc_dang_duoc_yeu_thich_tren_bilibili_manga.avif" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Quỳnh Nguyên</span>
+                <time datetime="2026-09-21">21/09/2026</time>
+              </div>
+              <h3 class="card__title">Top 5 manhua Trung Quốc đang được yêu thích trên Bilibili Manga</h3>
+            </a>
+            <a class="card" href="top_5_webtoon_han_quoc_dang_noi_bat_tren_webtoon.html">
+              <div class="card__thumb"><img src="assets/articles/top_5_webtoon_han_quoc_dang_noi_bat_tren_webtoon.avif" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Kim Ngân</span>
+                <time datetime="2026-09-17">17/09/2026</time>
+              </div>
+              <h3 class="card__title">Top 5 webtoon Hàn Quốc đang nổi bật trên WEBTOON</h3>
+            </a>
+            <a class="card" href="10_bo_truyen_tranh_duoi_18_tuoi_nen_doc_it_nhat_mot_lan.html">
+              <div class="card__thumb"><img src="assets/articles/10_bo_truyen_tranh_duoi_18_tuoi_nen_doc_it_nhat_mot_lan.jfif" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Duy Bình</span>
+                <time datetime="2026-09-05">05/09/2026</time>
+              </div>
+              <h3 class="card__title">10 bộ truyện tranh dưới 18 tuổi nên đọc ít nhất một lần</h3>
+            </a>
+            <a class="card" href="5_dieu_thu_vi_ve_thoi_quen_doc_manga_va_webtoon_cua_gen_z_nam_2026.html">
+              <div class="card__thumb"><img src="assets/articles/5_dieu_thu_vi_ve_thoi_quen_doc_manga_va_webtoon_cua_gen_z_nam_2026.avif" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Khánh Vân</span>
+                <time datetime="2026-09-03">03/09/2026</time>
+              </div>
+              <h3 class="card__title">5 điều thú vị về thói quen đọc manga và webtoon của Gen Z năm 2026</h3>
+            </a>
+            <a class="card" href="top_5_manga_va_tac_pham_truyen_minh_hoa_giup_kham_pha_van_hoa_nhat_ban.html">
+              <div class="card__thumb"><img src="assets/articles/top_5_manga_va_tac_pham_truyen_minh_hoa_giup_kham_pha_van_hoa_nhat_ban.avif" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Xuân Lan</span>
+                <time datetime="2026-08-26">26/08/2026</time>
+              </div>
+              <h3 class="card__title">Top 5 manga và tác phẩm truyện minh họa giúp khám phá văn hóa Nhật Bản</h3>
+            </a>
+            </div>
+          </div>
+          <div class="carousel-nav">
+            <button class="carousel-btn carousel-btn--prev" type="button" aria-label="Bài trước"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12H4M10 6l-6 6 6 6"/></svg></button>
+            <button class="carousel-btn carousel-btn--next" type="button" aria-label="Bài sau"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></button>
+          </div>
+        </div>
+        <div class="tabs__pane" id="pane-giai-ma-truyen" role="tabpanel" aria-labelledby="giai-ma-truyen" hidden>
+          <div class="carousel">
+            <div class="carousel__track">
+            <a class="card" href="frieren_beyond_journeys_end_va_hanh_trinh_gia_tuong_cham_rai_nhung_day_cam_xuc.html">
+              <div class="card__thumb"><img src="assets/articles/frieren_beyond_journeys_end_va_hanh_trinh_gia_tuong_cham_rai_nhung_day_cam_xuc.jpg" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Lê Bích</span>
+                <time datetime="2026-10-24">24/10/2026</time>
+              </div>
+              <h3 class="card__title">Frieren: Beyond Journey’s End và hành trình giả tưởng chậm rãi nhưng đầy cảm xúc</h3>
+            </a>
+            <a class="card" href="nhat_nhan_chi_ha_khi_van_hoa_truyen_thong_tro_thanh_chat_lieu_xay_dung_the_gioi_truyen.html">
+              <div class="card__thumb"><img src="assets/articles/nhat_nhan_chi_ha_khi_van_hoa_truyen_thong_tro_thanh_chat_lieu_xay_dung_the_gioi_truyen.jpg" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Hải Yến</span>
+                <time datetime="2026-10-20">20/10/2026</time>
+              </div>
+              <h3 class="card__title">Nhất Nhân Chi Hạ - Khi văn hóa truyền thống trở thành chất liệu xây dựng thế giới truyện</h3>
+            </a>
+            <a class="card" href="long_than_tuong_ke_lich_su_viet_nam_bang_ngon_ngu_truyen_tranh.html">
+              <div class="card__thumb"><img src="assets/articles/long_than_tuong_ke_lich_su_viet_nam_bang_ngon_ngu_truyen_tranh.png" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Thuỳ Linh</span>
+                <time datetime="2026-10-13">13/10/2026</time>
+              </div>
+              <h3 class="card__title">Long Thần Tướng kể lịch sử Việt Nam bằng ngôn ngữ truyện tranh</h3>
+            </a>
+            <a class="card" href="the_gioi_rong_lon_qua_doi_mat_co_be_5_tuoi_yotsuba.html">
+              <div class="card__thumb"><img src="assets/articles/the_gioi_rong_lon_qua_doi_mat_co_be_5_tuoi_yotsuba.jpg" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Phan Anh</span>
+                <time datetime="2026-10-09">09/10/2026</time>
+              </div>
+              <h3 class="card__title">Thế giới rộng lớn qua đôi mắt cô bé 5 tuổi Yotsuba</h3>
+            </a>
+            <a class="card" href="co_di_ma_lay_chong_toi_khi_co_hoi_thu_hai_tro_thanh_cuoc_tra_thu.html">
+              <div class="card__thumb"><img src="assets/articles/co_di_ma_lay_chong_toi_khi_co_hoi_thu_hai_tro_thanh_cuoc_tra_thu.png" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Thuỳ Chi</span>
+                <time datetime="2026-10-06">06/10/2026</time>
+              </div>
+              <h3 class="card__title">Cô đi mà lấy chồng tôi: Khi cơ hội thứ hai trở thành cuộc trả thù</h3>
+            </a>
+            <a class="card" href="haikyuu_hanh_trinh_truong_thanh_sau_moi_tran_dau.html">
+              <div class="card__thumb"><img src="assets/articles/haikyuu_hanh_trinh_truong_thanh_sau_moi_tran_dau.webp" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Minh An</span>
+                <time datetime="2026-10-02">02/10/2026</time>
+              </div>
+              <h3 class="card__title">Haikyuu!! - Hành trình trưởng thành sau mỗi trận đấu</h3>
+            </a>
+            <a class="card" href="conan_va_nghe_thuat_tao_nen_mot_vu_an_trinh_tham.html">
+              <div class="card__thumb"><img src="assets/articles/conan_va_nghe_thuat_tao_nen_mot_vu_an_trinh_tham.jpg" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Anh Thư</span>
+                <time datetime="2026-10-02">02/10/2026</time>
+              </div>
+              <h3 class="card__title">Conan và nghệ thuật tạo nên một vụ án trinh thám</h3>
+            </a>
+            <a class="card" href="tu_doremon_den_doraemon_hanh_trinh_hon_30_nam_cua_chu_meo_may_tai_viet_nam.html">
+              <div class="card__thumb"><img src="assets/articles/tu_doremon_den_doraemon_hanh_trinh_hon_30_nam_cua_chu_meo_may_tai_viet_nam.jpg" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Đình Khoa</span>
+                <time datetime="2026-09-29">29/09/2026</time>
+              </div>
+              <h3 class="card__title">Từ Đôrêmon đến Doraemon: Hành trình hơn 30 năm của chú mèo máy tại Việt Nam</h3>
+            </a>
+            <a class="card" href="luffy_va_quan_niem_ve_tu_do_trong_one_piece.html">
+              <div class="card__thumb"><img src="assets/articles/luffy_va_quan_niem_ve_tu_do_trong_one_piece.jpg" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Mộc Miên</span>
+                <time datetime="2026-09-04">04/09/2026</time>
+              </div>
+              <h3 class="card__title">Luffy và quan niệm về tự do trong One Piece</h3>
+            </a>
+            <a class="card" href="death_note_va_ranh_gioi_mong_manh_giua_cong_ly_voi_quyen_luc.html">
+              <div class="card__thumb"><img src="assets/articles/death_note_va_ranh_gioi_mong_manh_giua_cong_ly_voi_quyen_luc.jfif" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Minh Khang</span>
+                <time datetime="2026-08-07">07/08/2026</time>
+              </div>
+              <h3 class="card__title">Death Note và ranh giới mong manh giữa công lý với quyền lực</h3>
+            </a>
+            </div>
+          </div>
+          <div class="carousel-nav">
+            <button class="carousel-btn carousel-btn--prev" type="button" aria-label="Bài trước"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12H4M10 6l-6 6 6 6"/></svg></button>
+            <button class="carousel-btn carousel-btn--next" type="button" aria-label="Bài sau"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></button>
+          </div>
+        </div>
+        <div class="tabs__pane" id="pane-phong-tam-truyen" role="tabpanel" aria-labelledby="phong-tam-truyen" hidden>
+
+          <!-- ----- Bình chọn truyện yêu thích ----- -->
+          <section class="poll" aria-labelledby="poll-title">
+            <h2 class="poll__title" id="poll-title">Bình chọn truyện yêu thích</h2>
+            <p class="poll__note">Bình chọn cho top 3 truyện yêu thích của bạn. Góc Comic sẽ cập nhật top các tác phẩm được yêu thích nhất vào thứ 2 hàng tuần.</p>
+
+            <form class="poll__form" id="poll-form" novalidate>
+              <div class="poll__viewport">
+                <button class="carousel-btn poll__arrow" type="button" data-dir="-1" aria-label="Các truyện trước"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12H4M10 6l-6 6 6 6"/></svg></button>
+                <ul class="poll__track">
+                  <li class="poll__item">
+                    <label class="pick">
+                      <input class="pick__input" type="checkbox" name="poll" value="1">
+                      <span class="pick__cover">
+                        <img src="assets/jojo_part7.png" alt="" loading="lazy">
+                        <span class="pick__box" aria-hidden="true"></span>
+                      </span>
+                      <span class="pick__name">JoJo’s Bizarre Adventure: Part 7 — Steel Ball Run</span>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label class="pick">
+                      <input class="pick__input" type="checkbox" name="poll" value="2">
+                      <span class="pick__cover">
+                        <img src="assets/berserk.jpg" alt="" loading="lazy">
+                        <span class="pick__box" aria-hidden="true"></span>
+                      </span>
+                      <span class="pick__name">Berserk</span>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label class="pick">
+                      <input class="pick__input" type="checkbox" name="poll" value="3">
+                      <span class="pick__cover">
+                        <img src="assets/one_piece.jpg" alt="" loading="lazy">
+                        <span class="pick__box" aria-hidden="true"></span>
+                      </span>
+                      <span class="pick__name">One Piece</span>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label class="pick">
+                      <input class="pick__input" type="checkbox" name="poll" value="4">
+                      <span class="pick__cover">
+                        <img src="assets/fullmetal_alchemist.jpg" alt="" loading="lazy">
+                        <span class="pick__box" aria-hidden="true"></span>
+                      </span>
+                      <span class="pick__name">Fullmetal Alchemist: Brotherhood</span>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label class="pick">
+                      <input class="pick__input" type="checkbox" name="poll" value="5">
+                      <span class="pick__cover">
+                        <img src="assets/grand_blue_dreaming.jpg" alt="" loading="lazy">
+                        <span class="pick__box" aria-hidden="true"></span>
+                      </span>
+                      <span class="pick__name">Grand Blue Dreaming</span>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label class="pick">
+                      <input class="pick__input" type="checkbox" name="poll" value="6">
+                      <span class="pick__cover">
+                        <img src="assets/duoc_su_tu_su.jpg" alt="" loading="lazy">
+                        <span class="pick__box" aria-hidden="true"></span>
+                      </span>
+                      <span class="pick__name">Dược Sư Tự Sự</span>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label class="pick">
+                      <input class="pick__input" type="checkbox" name="poll" value="7">
+                      <span class="pick__cover">
+                        <img src="assets/operation_true_love.jpg" alt="" loading="lazy">
+                        <span class="pick__box" aria-hidden="true"></span>
+                      </span>
+                      <span class="pick__name">Operation: True Love</span>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label class="pick">
+                      <input class="pick__input" type="checkbox" name="poll" value="8">
+                      <span class="pick__cover">
+                        <img src="assets/blue_lock.jpg" alt="" loading="lazy">
+                        <span class="pick__box" aria-hidden="true"></span>
+                      </span>
+                      <span class="pick__name">Blue Lock</span>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label class="pick">
+                      <input class="pick__input" type="checkbox" name="poll" value="9">
+                      <span class="pick__cover">
+                        <img src="assets/cry_or_better_yet_beg.jpg" alt="" loading="lazy">
+                        <span class="pick__box" aria-hidden="true"></span>
+                      </span>
+                      <span class="pick__name">Cry, or Better Yet, Beg</span>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label class="pick">
+                      <input class="pick__input" type="checkbox" name="poll" value="10">
+                      <span class="pick__cover">
+                        <img src="assets/thay_tuong_thay_vu.jpg" alt="" loading="lazy">
+                        <span class="pick__box" aria-hidden="true"></span>
+                      </span>
+                      <span class="pick__name">Bẩm thầy Tường, có thầy Vũ đến tìm!</span>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label class="pick">
+                      <input class="pick__input" type="checkbox" name="poll" value="11">
+                      <span class="pick__cover">
+                        <img src="assets/poll_solo_leveling.jpg" alt="" loading="lazy">
+                        <span class="pick__box" aria-hidden="true"></span>
+                      </span>
+                      <span class="pick__name">Solo Leveling</span>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label class="pick">
+                      <input class="pick__input" type="checkbox" name="poll" value="12">
+                      <span class="pick__cover">
+                        <img src="assets/poll_orv.jpg" alt="" loading="lazy">
+                        <span class="pick__box" aria-hidden="true"></span>
+                      </span>
+                      <span class="pick__name">Omniscient Reader’s Viewpoint</span>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label class="pick">
+                      <input class="pick__input" type="checkbox" name="poll" value="13">
+                      <span class="pick__cover">
+                        <img src="assets/poll_dandadan.jpg" alt="" loading="lazy">
+                        <span class="pick__box" aria-hidden="true"></span>
+                      </span>
+                      <span class="pick__name">Dandadan</span>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label class="pick">
+                      <input class="pick__input" type="checkbox" name="poll" value="14">
+                      <span class="pick__cover">
+                        <img src="assets/poll_kagurabachi.jpg" alt="" loading="lazy">
+                        <span class="pick__box" aria-hidden="true"></span>
+                      </span>
+                      <span class="pick__name">Kagurabachi</span>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label class="pick">
+                      <input class="pick__input" type="checkbox" name="poll" value="15">
+                      <span class="pick__cover">
+                        <img src="assets/poll_sakamoto_days.jpg" alt="" loading="lazy">
+                        <span class="pick__box" aria-hidden="true"></span>
+                      </span>
+                      <span class="pick__name">Sakamoto Days</span>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label class="pick">
+                      <input class="pick__input" type="checkbox" name="poll" value="16">
+                      <span class="pick__cover">
+                        <img src="assets/poll_fragrant_flower.jpg" alt="" loading="lazy">
+                        <span class="pick__box" aria-hidden="true"></span>
+                      </span>
+                      <span class="pick__name">The Fragrant Flower Blooms with Dignity</span>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label class="pick">
+                      <input class="pick__input" type="checkbox" name="poll" value="17">
+                      <span class="pick__cover">
+                        <img src="assets/poll_tutorial_tower.jpg" alt="" loading="lazy">
+                        <span class="pick__box" aria-hidden="true"></span>
+                      </span>
+                      <span class="pick__name">The Advanced Player of the Tutorial Tower</span>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label class="pick">
+                      <input class="pick__input" type="checkbox" name="poll" value="18">
+                      <span class="pick__cover">
+                        <img src="assets/poll_lookism.jpg" alt="" loading="lazy">
+                        <span class="pick__box" aria-hidden="true"></span>
+                      </span>
+                      <span class="pick__name">Lookism</span>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label class="pick">
+                      <input class="pick__input" type="checkbox" name="poll" value="19">
+                      <span class="pick__cover">
+                        <img src="assets/poll_remarried_empress.jpg" alt="" loading="lazy">
+                        <span class="pick__box" aria-hidden="true"></span>
+                      </span>
+                      <span class="pick__name">The Remarried Empress</span>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label class="pick">
+                      <input class="pick__input" type="checkbox" name="poll" value="20">
+                      <span class="pick__cover">
+                        <img src="assets/poll_mafia_nanny.jpg" alt="" loading="lazy">
+                        <span class="pick__box" aria-hidden="true"></span>
+                      </span>
+                      <span class="pick__name">The Mafia Nanny</span>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label class="pick">
+                      <input class="pick__input" type="checkbox" name="poll" value="21">
+                      <span class="pick__cover">
+                        <img src="assets/poll_jungle_juice.jpg" alt="" loading="lazy">
+                        <span class="pick__box" aria-hidden="true"></span>
+                      </span>
+                      <span class="pick__name">Jungle Juice</span>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label class="pick">
+                      <input class="pick__input" type="checkbox" name="poll" value="22">
+                      <span class="pick__cover">
+                        <img src="assets/poll_the_boxer.jpg" alt="" loading="lazy">
+                        <span class="pick__box" aria-hidden="true"></span>
+                      </span>
+                      <span class="pick__name">The Boxer</span>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label class="pick">
+                      <input class="pick__input" type="checkbox" name="poll" value="23">
+                      <span class="pick__cover">
+                        <img src="assets/poll_demon_god_lackey.jpg" alt="" loading="lazy">
+                        <span class="pick__box" aria-hidden="true"></span>
+                      </span>
+                      <span class="pick__name">I’m Really Not the Demon God’s Lackey</span>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label class="pick">
+                      <input class="pick__input" type="checkbox" name="poll" value="24">
+                      <span class="pick__cover">
+                        <img src="assets/poll_sect_leader.jpg" alt="" loading="lazy">
+                        <span class="pick__box" aria-hidden="true"></span>
+                      </span>
+                      <span class="pick__name">Keep a Low Profile, Sect Leader</span>
+                    </label>
+                  </li>
+                </ul>
+                <button class="carousel-btn poll__arrow" type="button" data-dir="1" aria-label="Các truyện sau"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></button>
+              </div>
+
+              <div class="poll__actions">
+                <button class="poll__submit" type="submit" disabled>Bình chọn</button>
+                <p class="poll__status" role="status" aria-live="polite"></p>
+              </div>
+            </form>
+
+            <form class="suggest" id="suggest-form" novalidate>
+              <label class="suggest__label" for="suggest-input">Đề xuất thêm truyện</label>
+              <div class="suggest__field">
+                <input class="suggest__input" id="suggest-input" type="text" maxlength="120" autocomplete="off" placeholder="Nhập tên truyện bạn muốn đề xuất...">
+                <button class="suggest__submit" type="submit" aria-label="Gửi đề xuất"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></button>
+              </div>
+              <p class="suggest__status" role="status" aria-live="polite"></p>
+            </form>
+            <dialog class="thanks" id="poll-thanks" aria-labelledby="thanks-title">
+              <h3 class="thanks__title" id="thanks-title">Cảm ơn bạn đã bình chọn!</h3>
+              <p class="thanks__text">Top truyện được yêu thích sẽ cập nhật vào thứ 2 hàng tuần.</p>
+              <button class="thanks__close" type="button">Đóng</button>
+            </dialog>
+          </section>
+
+          <hr class="poll__divider">
+
+          <!-- ----- Bài viết của chuyên mục (giống các tab khác) ----- -->
+          <div class="carousel">
+            <div class="carousel__track">
+            <a class="card" href="loid_x_yor_khi_vo_chong_gia_bat_dau_co_nhung_cam_xuc_that.html">
+              <div class="card__thumb"><img src="assets/articles/loid_x_yor_khi_vo_chong_gia_bat_dau_co_nhung_cam_xuc_that.jpg" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Anh Nguyễn</span>
+                <time datetime="2026-10-22">22/10/2026</time>
+              </div>
+              <h3 class="card__title">Loid × Yor: Khi “vợ chồng giả” bắt đầu có những cảm xúc thật</h3>
+            </a>
+            <a class="card" href="long_than_tuong_khi_khung_tranh_ke_nhieu_hon_loi_thoai.html">
+              <div class="card__thumb"><img src="assets/articles/long_than_tuong_khi_khung_tranh_ke_nhieu_hon_loi_thoai.jpg" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Thu Linh</span>
+                <time datetime="2026-10-18">18/10/2026</time>
+              </div>
+              <h3 class="card__title">Long Thần Tướng: Khi khung tranh kể nhiều hơn lời thoại</h3>
+            </a>
+            <a class="card" href="maomao_khong_chi_giai_an_bang_kien_thuc_hay_nhin_vao_thu_moi_nguoi_bo_qua.html">
+              <div class="card__thumb"><img src="assets/articles/maomao_khong_chi_giai_an_bang_kien_thuc_hay_nhin_vao_thu_moi_nguoi_bo_qua.jpg" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Trang Anh</span>
+                <time datetime="2026-10-11">11/10/2026</time>
+              </div>
+              <h3 class="card__title">Maomao không chỉ giải án bằng kiến thức: Hãy nhìn vào thứ mọi người bỏ qua</h3>
+            </a>
+            <a class="card" href="khi_tac_gia_giau_mot_loi_giai_trong_canh_truyen_binh_thuong_hoc_cach_soi_hint_tu_witch_watch.html">
+              <div class="card__thumb"><img src="assets/articles/khi_tac_gia_giau_mot_loi_giai_trong_canh_truyen_binh_thuong_hoc_cach_soi_hint_tu_witch_watch.jpg" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Thảo Lê</span>
+                <time datetime="2026-10-05">5/10/2026</time>
+              </div>
+              <h3 class="card__title">Khi tác giả giấu một lời giải trong cảnh truyện bình thường: Học cách soi hint từ Witch Watch</h3>
+            </a>
+            <a class="card" href="kim_dokja_biet_truoc_tuong_lai_nhung_co_that_su_hieu_cau_chuyen.html">
+              <div class="card__thumb"><img src="assets/articles/kim_dokja_biet_truoc_tuong_lai_nhung_co_that_su_hieu_cau_chuyen.jpg" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Đào Hà</span>
+                <time datetime="2026-09-25">25/9/2026</time>
+              </div>
+              <h3 class="card__title">Kim Dokja biết trước tương lai, nhưng có thật sự hiểu câu chuyện?</h3>
+            </a>
+            <a class="card" href="tac_gia_lo_he_lo_nhung_hint_ngoai_doi_khien_fan_attack_on_titan_phai_doc_lai_tu_dau.html">
+              <div class="card__thumb"><img src="assets/articles/tac_gia_lo_he_lo_nhung_hint_ngoai_doi_khien_fan_attack_on_titan_phai_doc_lai_tu_dau.jpg" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Bích Trần</span>
+                <time datetime="2026-09-20">20/9/2026</time>
+              </div>
+              <h3 class="card__title">Tác giả lỡ hé lộ? Những hint ngoài đời khiến fan Attack on Titan phải đọc lại từ đầu</h3>
+            </a>
+            <a class="card" href="vi_sao_hoi_me_manhua_ngay_cang_bi_cuon_vao_kieu_nhan_vat_phan_dien_chinh.html">
+              <div class="card__thumb"><img src="assets/articles/vi_sao_hoi_me_manhua_ngay_cang_bi_cuon_vao_kieu_nhan_vat_phan_dien_chinh.jpg" alt="" loading="lazy"></div>
+              <div class="card__meta">
+                <span class="card__author">Đức Vũ</span>
+                <time datetime="2026-09-07">7/9/2026</time>
+              </div>
+              <h3 class="card__title">Vì sao hội mê manhua ngày càng bị cuốn vào kiểu nhân vật “phản diện chính”? Gu Changge của I Am the Fated Villain có gì đặc biệt?</h3>
+            </a>
+            </div>
+          </div>
+          <div class="carousel-nav">
+            <button class="carousel-btn carousel-btn--prev" type="button" aria-label="Bài trước"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12H4M10 6l-6 6 6 6"/></svg></button>
+            <button class="carousel-btn carousel-btn--next" type="button" aria-label="Bài sau"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== CHÂN TRANG ===== -->
+  <footer class="footer">
+    <div class="footer__inner">
+
+      <!-- Logo (nảy nhẹ tại chỗ) + mạng xã hội -->
+      <div class="footer__brand">
+        <a class="footer__logo" href="index.html" aria-label="Góc Comic - Trang chủ">
+          <img src="assets/logo.png" alt="Góc Comic">
+        </a>
+        <ul class="footer__social" aria-label="Mạng xã hội">
+          <li>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.6 22v-8.2h2.8l.5-3.3h-3.3V8.4c0-.9.4-1.7 1.8-1.7h1.6V3.9c-.3 0-1.3-.2-2.4-.2-2.5 0-4.1 1.5-4.1 4.2v2.6H7.7v3.3h2.8V22h3.1z"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.6 3h-3.2v12.4a2.6 2.6 0 1 1-2.6-2.6c.300 0 .6 0 .8.1V9.6a5.8 5.8 0 1 0 5 5.8V9.1c1.1.8 2.5 1.3 4 1.3V7.2c-2.2 0-3.8-1.7-4-4.2z"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Chuyên mục (bấm sẽ mở đúng tab ở trang chủ) -->
+      <nav class="footer__col" aria-label="Chuyên mục">
+        <ul class="footer__links">
+          <li><a href="#truyen-dong">Truyện động</a></li>
+          <li><a href="#nguoi-ve-truyen">Người vẽ truyện</a></li>
+          <li><a href="#goi-y-doc">Gợi ý đọc</a></li>
+          <li><a href="#giai-ma-truyen">Giải mã truyện</a></li>
+          <li><a href="#phong-tam-truyen">Phòng tám truyện</a></li>
+        </ul>
+      </nav>
+
+      <!-- Chính sách & hỗ trợ -->
+      <div class="footer__col">
+        <h2 class="footer__heading">CHÍNH SÁCH &amp; HỖ TRỢ</h2>
+        <ul class="footer__links">
+          <li><a href="dieu-khoan-dich-vu.html">Điều khoản dịch vụ</a></li>
+          <li><a href="chinh-sach-bao-mat.html">Chính sách bảo mật</a></li>
+          <li><a href="ban-quyen-dmca.html">Bản quyền &amp; DMCA</a></li>
+          <li>Liên hệ: <a href="mailto:goccomic@gmail.com">goccomic@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <!-- Đăng ký nhận tin -->
+      <form class="footer__news" id="subscribe-form" novalidate>
+        <h2 class="footer__heading">Cùng cập nhật</h2>
+        <p class="footer__news-text">Đăng ký nhận những thông tin mới nhất.</p>
+        <label class="footer__sr" for="subscribe-email">Email của bạn</label>
+        <div class="footer__field">
+          <input class="footer__input" id="subscribe-email" type="email" autocomplete="email" placeholder="Your Email">
+          <button class="footer__send" type="submit" aria-label="Đăng ký nhận tin">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+        <p class="footer__news-status" role="status" aria-live="polite"></p>
+      </form>
+
+    </div>
+
+    <div class="footer__bottom">
+      <p>© 2023 - 2026 Goc Comic, Inc. by Magazine House, Ltd. (Ha Noi). All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
